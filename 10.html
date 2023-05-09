@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Use of Different tags in HTML</title>
+</head>
+
+<body>
+
+    <h2>Video Tag</h2>
+    <video controls
+           width="300"
+           height="200">Yout Tube Video
+        <source src="video.mp4"
+                type="video/mp4">
+    </video>
+
+    <br>
+
+    <h2>Audio Tag</h2>
+    <audio controls>Audio of Water
+        <source src="watermp3.mp3"
+                type="audio/mpeg">
+    </audio>
+
+    <br>
+    <h2>Header Tag</h2>
+    <header>
+        <h4>Lorem, ipsum dolor sit amet consectetur adipisicing.</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure, recusandae!</p>
+    </header>
+
+    <br>
+    <h2>Footer Tag</h2>
+    <footer>
+        <h4>Lorem, ipsum dolor sit amet consectetur adipisicing.</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure, recusandae!</p>
+    </footer>
+
+    <br>
+    <h2>Nav Tag</h2>
+    <nav>
+        <a href="https://www.w3schools.com/">Hyperlink</a>
+    </nav>
+
+    <br>
+    <h2>Embed tag</h2>
+    <embed src="https://www.shorturl.at/img/shorturl-icon.png"
+           type="image/png"
+           width="200"
+           height="200">
+
+    <br>
+    <h2>DataList</h2>
+    <label for="browser">Choose your favourite fruit from the list:</label>
+    <input list="browsers"
+           name="browser"
+           id="browser">
+    <datalist id="browsers">
+        <option value="Apple">
+        <option value="Mango">
+        <option value="Banana">
+        <option value="Papaya">
+        <option value="Plum">
+    </datalist>
+
+    <br>
+    <h2>Bdi Tag</h2>
+    <p>BDI stands for Bi-Directional Isolation.</p>
+    <p>BDI used to isolates a part of text that might be formatted in a different direction from other text outside it.
+    </p>
+    <li>User <bdi>hrefs</bdi>: 60 points</li>
+
+    <br>
+    <h2>Article Tag</h2>
+    <article>
+        <header>
+            <h4>A heading here</h4>
+            <p>Posted by John Doe</p>
+            <p>Some additional information here</p>
+        </header>
+        <p>Lorem Ipsum dolor set amet....</p>
+    </article>
+
+    <br>
+    <h2>Output Tag</h2>
+    <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+        <input type="range"
+               id="a"
+               value="50">
+        + <input type="number"
+               id="b"
+               value="25">
+        =<output name="x"
+                for="a b"></output>
+    </form>
+
+    <br><br><br>
+    <hr>
+    <p align="center">Sandhya Roll No: 46 B.tech Section J</p>
+</body>
+
+</html>
